@@ -1,0 +1,9 @@
+D:\Pluralsight\Asp.net core\Asp.net core by scott allen\OdeToFood\OdeToFood.Core\bin\Debug\netcoreapp3.1\OdeToFood.Core.deps.json
+D:\Pluralsight\Asp.net core\Asp.net core by scott allen\OdeToFood\OdeToFood.Core\bin\Debug\netcoreapp3.1\OdeToFood.Core.dll
+D:\Pluralsight\Asp.net core\Asp.net core by scott allen\OdeToFood\OdeToFood.Core\bin\Debug\netcoreapp3.1\OdeToFood.Core.pdb
+D:\Pluralsight\Asp.net core\Asp.net core by scott allen\OdeToFood\OdeToFood.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.csprojAssemblyReference.cache
+D:\Pluralsight\Asp.net core\Asp.net core by scott allen\OdeToFood\OdeToFood.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.csproj.CoreCompileInputs.cache
+D:\Pluralsight\Asp.net core\Asp.net core by scott allen\OdeToFood\OdeToFood.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.AssemblyInfoInputs.cache
+D:\Pluralsight\Asp.net core\Asp.net core by scott allen\OdeToFood\OdeToFood.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.AssemblyInfo.cs
+D:\Pluralsight\Asp.net core\Asp.net core by scott allen\OdeToFood\OdeToFood.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.dll
+D:\Pluralsight\Asp.net core\Asp.net core by scott allen\OdeToFood\OdeToFood.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.pdb
