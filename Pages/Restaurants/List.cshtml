@@ -1,0 +1,65 @@
+﻿@page
+@model OdeToFood.Pages.Restaurants.ListModel
+@{
+    ViewData["Title"] = "Restaurants";
+}
+
+<h1>Restaurants</h1>
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="SearchTerm" />
+            <div class="input-group-append">
+                <button class="btn btn-secondary">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+@foreach (var restaurant in Model.Restaurants)
+{
+    <partial name="_Summary" model="restaurant" />
+}
+
+<pre>
+
+</pre>
+<a asp-page=".\Edit" class="btn btn-primary">Add New</a>
+
+
+@section footer {
+    <div>@Model.Message</div>
+}
+
+
+
+
+@*
+    
+    /* below table has been replaced with above foreach loop and partial View*/
+    
+    <table class="table">
+    @foreach (var restaurant in Model.Restaurants)
+    {
+        <tr>
+            <td>@restaurant.Name</td>
+            <td>@restaurant.Location</td>
+            <td>@restaurant.Cuisine</td>
+            <td>
+                <a class="btn btn-lg" asp-page="./Detail" asp-route-restaurantId="@restaurant.Id">
+                    <i class="fas fa-info-circle"></i>
+                </a>
+                <a class="btn btn-lg" asp-page="./Edit" asp-route-restaurantId="@restaurant.Id">
+                    <i class="fas fa-pen-square"></i>
+                </a>
+                <a class="btn btn-lg" asp-page="./Delete" asp-route-restaurantId="@restaurant.Id">
+                    <i class="fas fa-trash-alt"></i>
+                </a>
+            </td>
+        </tr>
+    }
+</table>*@
