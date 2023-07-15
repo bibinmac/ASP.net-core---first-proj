@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "datatables.net-bs4": "^1.10.21",
+    "datatables.net-bs4": "^1.13.5",
     "bootstrap": "^4.5.0"
   },
   "devDependencies": {},
